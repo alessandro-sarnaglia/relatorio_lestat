@@ -1,0 +1,31 @@
+---
+title: Avaliação de efeitos de ocupação, de abertura de portas e janelas, e de localização
+  de salas de aula em CO$_2$, PM$_{2.5}$ e PM$_{10}$
+author: "Alessandro José Queiroz Sarnaglia"
+date: '2022-05-06'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Dados
+
+Os dados foram coletados em duas campanhas: a primeira realizada durante o período de aulas remotas (dias úteis entre 26/07/2021 e 01/11/2021); e a segunda realizada após o retorno presencial (dias úteis entre 03/11/2021 e 17/12/2021). Neste relatório são consideradas apenas dados da Campanha 2. Nessa campanha foram consideradas duas salas: E5; e H4. Foram observadas as concentrações de Dióxido de Carbono (CO$_2$) e de Material Particulado (PM) com diâmetros inferiores a 2.5 e 10 µ$\text{m}$ (PM$_{2.5}$ e PM$_{10}$, respectivamente). Os mesmos poluentes também foram observados em ambiente externo, no acesso à instituição de ensino. Além dos poluentes, foram coletados dados sobre a ocupação e as áreas de abertura de portas e janelas. Originalmente, cada uma das variáveis foi observada a cada minuto.
+
+As figuras a seguir apresentam as distribuições das concentrações dos poluentes com respeito a sala (E5 ou H4) e a situação da mesma (totalmente aberta - open room, somente porta aberta - open door, somente janela aberta - open window, e totalmente fechada - closed room).
+
+![Boxplot das concentrações de CO$_2$ em função da sala e da situação da mesma.](figuras/boxplot_CO2.png)
+
+![Boxplot das concentrações de PM$_{2.5}$ em função da sala e da situação da mesma.](figuras/boxplot_PM2.5.png)
+
+![Boxplot das concentrações de PM$_{10}$ em função da sala e da situação da mesma.](figuras/boxplot_PM10.png)
+
+Aparentemente, as figuras acima indicam que, no caso do CO$_2$, situações com a sala totalmente aberta parecem fornecer níveis menores do poluente, o que é esperado, tendo em vista que esse poluente pode ser emitido pelos ocupantes da sala, de modo que a sala aberta favorece a dissipação do mesmo. Para esse poluente, a situação da sala aparentemente tem um efeito importante, no sentido de que em situações de porta aberta e sala totalmente fechada as concentrações tendem a ser maiores na sala E5 em comparação com a sala H4. No caso do PM$_{2.5}$ e PM$_{10}$, percebemos a ocorrência de muitas observações discrepantes, o que inclusive dificulta a visualização dos boxplot's. Desses gráficos, não fica evidente uma diferença provocada pelo local da sala. Entretanto, o papel da situação da sala parece se inverter, quando comparado com o CO$_2$. Aparentemente, nesse caso, a sala totalmente aberta parece fornecer concentrações maiores do que em outras situações, o que pode ser explicado pelo fato de que os ocupantes não constituem fonte emissora de material particulado, sendo a grande maioria proveniente do ambiente externo, de modo que a sala aberta favoreceria ao aumento do efeito dos níveis externos nos níveis internos desses poluentes.
+
+As tabelas abaixo mostram algumas medidas descritivas relativas a esses poluentes computadas em cada sala e cada situação.
+
+
+
+As figuras abaixo mostram a evolução dos poluentes e a da ocupação com o passar do tempo.
