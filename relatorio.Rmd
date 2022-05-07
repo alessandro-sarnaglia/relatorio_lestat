@@ -24,8 +24,358 @@ As figuras a seguir apresentam as distribuições das concentrações dos poluen
 
 Aparentemente, as figuras acima indicam que, no caso do CO$_2$, situações com a sala totalmente aberta parecem fornecer níveis menores do poluente, o que é esperado, tendo em vista que esse poluente pode ser emitido pelos ocupantes da sala, de modo que a sala aberta favorece a dissipação do mesmo. Para esse poluente, a situação da sala aparentemente tem um efeito importante, no sentido de que em situações de porta aberta e sala totalmente fechada as concentrações tendem a ser maiores na sala E5 em comparação com a sala H4. No caso do PM$_{2.5}$ e PM$_{10}$, percebemos a ocorrência de muitas observações discrepantes, o que inclusive dificulta a visualização dos boxplot's. Desses gráficos, não fica evidente uma diferença provocada pelo local da sala. Entretanto, o papel da situação da sala parece se inverter, quando comparado com o CO$_2$. Aparentemente, nesse caso, a sala totalmente aberta parece fornecer concentrações maiores do que em outras situações, o que pode ser explicado pelo fato de que os ocupantes não constituem fonte emissora de material particulado, sendo a grande maioria proveniente do ambiente externo, de modo que a sala aberta favoreceria ao aumento do efeito dos níveis externos nos níveis internos desses poluentes.
 
-As tabelas abaixo mostram algumas medidas descritivas relativas a esses poluentes computadas em cada sala e cada situação.
+As tabelas abaixo mostram algumas medidas descritivas relativas a esses poluentes computadas em cada sala e em cada situação.
 
+<style>
+table, th, td {
+  border: 0px;
+  padding: 5px;
+}
+table {
+  border-spacing: 15px;
+  margin-bottom: 15px;
+}
+</style>
 
+<A NAME="table0"> Medidas resumo das concentrações de CO$_{2}$ </A>
+<table cellspacing="0" border="0">
+	<thead>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">LOCAL</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">SALA</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">min</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">1st quantile</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">median</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">mean</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">std. dev.</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">3rd quantile</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">max</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="378" sdnum="1033;0;0.00">378.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="409" sdnum="1033;0;0.00">409.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="424" sdnum="1033;0;0.00">424.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="456" sdnum="1033;0;0.00">456.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="129" sdnum="1033;0;0.00">129.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="456" sdnum="1033;0;0.00">456.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2304" sdnum="1033;0;0.00">2304.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OD</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="433" sdnum="1033;0;0.00">433.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="494" sdnum="1033;0;0.00">494.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="931" sdnum="1033;0;0.00">931.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="938" sdnum="1033;0;0.00">938.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="431" sdnum="1033;0;0.00">431.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1146" sdnum="1033;0;0.00">1146.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1974" sdnum="1033;0;0.00">1974.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OW</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="395" sdnum="1033;0;0.00">395.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="423" sdnum="1033;0;0.00">423.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="464" sdnum="1033;0;0.00">464.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="553" sdnum="1033;0;0.00">553.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="188" sdnum="1033;0;0.00">188.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="603" sdnum="1033;0;0.00">603.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1319" sdnum="1033;0;0.00">1319.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">CR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="417" sdnum="1033;0;0.00">417.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="868" sdnum="1033;0;0.00">868.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1311" sdnum="1033;0;0.00">1311.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1283" sdnum="1033;0;0.00">1283.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="466" sdnum="1033;0;0.00">466.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1609" sdnum="1033;0;0.00">1609.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2406" sdnum="1033;0;0.00">2406.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="375" sdnum="1033;0;0.00">375.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="404" sdnum="1033;0;0.00">404.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="412" sdnum="1033;0;0.00">412.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="442" sdnum="1033;0;0.00">442.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="93.7" sdnum="1033;0;0.00">93.70</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="436" sdnum="1033;0;0.00">436.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1180" sdnum="1033;0;0.00">1180.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OD</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="399" sdnum="1033;0;0.00">399.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="436" sdnum="1033;0;0.00">436.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="512" sdnum="1033;0;0.00">512.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="580" sdnum="1033;0;0.00">580.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="204" sdnum="1033;0;0.00">204.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="636" sdnum="1033;0;0.00">636.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1588" sdnum="1033;0;0.00">1588.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OW</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="390" sdnum="1033;0;0.00">390.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="404" sdnum="1033;0;0.00">404.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="413" sdnum="1033;0;0.00">413.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="535" sdnum="1033;0;0.00">535.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="226" sdnum="1033;0;0.00">226.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="631" sdnum="1033;0;0.00">631.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1366" sdnum="1033;0;0.00">1366.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">CR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="401" sdnum="1033;0;0.00">401.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="530" sdnum="1033;0;0.00">530.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="711" sdnum="1033;0;0.00">711.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="835" sdnum="1033;0;0.00">835.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="385" sdnum="1033;0;0.00">385.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1024" sdnum="1033;0;0.00">1024.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1786" sdnum="1033;0;0.00">1786.00</td>
+	</tr>
+	</tbody>
+</table>
 
-As figuras abaixo mostram a evolução dos poluentes e a da ocupação com o passar do tempo.
+<A NAME="table3"> Medidas resumo das concentrações de PM$_{2.5}$ </A>
+<table cellspacing="0" border="0">
+  <thead>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">LOCAL</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">SALA</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">min</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">1st quantile</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">median</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">mean</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">std. dev.</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">3rd quantile</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">max</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="0" sdnum="1033;0;0.00">0.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2" sdnum="1033;0;0.00">2.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3.14" sdnum="1033;0;0.00">3.14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1.96" sdnum="1033;0;0.00">1.96</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="26" sdnum="1033;0;0.00">26.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OD</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="0" sdnum="1033;0;0.00">0.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3.61" sdnum="1033;0;0.00">3.61</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1.47" sdnum="1033;0;0.00">1.47</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="9" sdnum="1033;0;0.00">9.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OW</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="0" sdnum="1033;0;0.00">0.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2" sdnum="1033;0;0.00">2.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2" sdnum="1033;0;0.00">2.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.64" sdnum="1033;0;0.00">2.64</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1.39" sdnum="1033;0;0.00">1.39</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="15" sdnum="1033;0;0.00">15.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">CR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="0" sdnum="1033;0;0.00">0.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2" sdnum="1033;0;0.00">2.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2" sdnum="1033;0;0.00">2.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.58" sdnum="1033;0;0.00">2.58</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1.38" sdnum="1033;0;0.00">1.38</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="27" sdnum="1033;0;0.00">27.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4.65" sdnum="1033;0;0.00">4.65</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.28" sdnum="1033;0;0.00">2.28</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="6" sdnum="1033;0;0.00">6.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="68" sdnum="1033;0;0.00">68.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OD</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4.21" sdnum="1033;0;0.00">4.21</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.23" sdnum="1033;0;0.00">2.23</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="34" sdnum="1033;0;0.00">34.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OW</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4.1" sdnum="1033;0;0.00">4.10</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.17" sdnum="1033;0;0.00">2.17</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="16" sdnum="1033;0;0.00">16.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">CR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3.99" sdnum="1033;0;0.00">3.99</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.94" sdnum="1033;0;0.00">2.94</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="45" sdnum="1033;0;0.00">45.00</td>
+	</tr>
+	</tbody>
+</table>
+
+<A NAME="table6"> Medidas resumo das concentrações de PM$_{10}$ </A>
+<table cellspacing="0" border="0">
+	<thead>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">LOCAL</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">SALA</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">min</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">1st quantile</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">median</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">mean</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">std. dev.</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">3rd quantile</th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">max</th>
+	</tr>
+	</thead>
+  <tbody>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="0" sdnum="1033;0;0.00">0.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5.25" sdnum="1033;0;0.00">5.25</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.9" sdnum="1033;0;0.00">2.90</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="7" sdnum="1033;0;0.00">7.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="46" sdnum="1033;0;0.00">46.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OD</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="6" sdnum="1033;0;0.00">6.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5.97" sdnum="1033;0;0.00">5.97</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.28" sdnum="1033;0;0.00">2.28</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="7" sdnum="1033;0;0.00">7.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="13" sdnum="1033;0;0.00">13.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OW</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4.44" sdnum="1033;0;0.00">4.44</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2.13" sdnum="1033;0;0.00">2.13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="27" sdnum="1033;0;0.00">27.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">C5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">CR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3" sdnum="1033;0;0.00">3.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4.35" sdnum="1033;0;0.00">4.35</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1.93" sdnum="1033;0;0.00">1.93</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="30" sdnum="1033;0;0.00">30.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="7" sdnum="1033;0;0.00">7.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="7.28" sdnum="1033;0;0.00">7.28</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3.28" sdnum="1033;0;0.00">3.28</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="9" sdnum="1033;0;0.00">9.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="73" sdnum="1033;0;0.00">73.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OD</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2" sdnum="1033;0;0.00">2.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="6" sdnum="1033;0;0.00">6.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="6.7" sdnum="1033;0;0.00">6.70</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3.61" sdnum="1033;0;0.00">3.61</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="8" sdnum="1033;0;0.00">8.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="58" sdnum="1033;0;0.00">58.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">OW</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="1" sdnum="1033;0;0.00">1.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="6" sdnum="1033;0;0.00">6.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="6.42" sdnum="1033;0;0.00">6.42</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3.39" sdnum="1033;0;0.00">3.39</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="8" sdnum="1033;0;0.00">8.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="25" sdnum="1033;0;0.00">25.00</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" height="17" align="center">H4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center">CR</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="2" sdnum="1033;0;0.00">2.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="4" sdnum="1033;0;0.00">4.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="5" sdnum="1033;0;0.00">5.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="6.15" sdnum="1033;0;0.00">6.15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="3.63" sdnum="1033;0;0.00">3.63</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="7" sdnum="1033;0;0.00">7.00</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" sdval="47" sdnum="1033;0;0.00">47.00</td>
+	</tr>
+	</tbody>
+</table>
+
+As tabelas acima parecem corroborar com as conclusões tiradas dos boxplot's apresentados anteriormente.
+
+Além da distribuição dos poluentes em diferentes salas e em situações distintas, é interessante averiguar a dinâmica temporal dos mesmos. As figuras abaixo mostram a evolução dos poluentes e a da ocupação com o passar do tempo.
+
+![Evolução temporal do CO$_2$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período.](figuras/CO2_C5.png)
+
+![Evolução temporal do CO$_2$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período.](figuras/CO2_H4.png)
+
+![Evolução temporal do PM$_{2.5}$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período.](figuras/PM2.5_C5.png)
+
+![Evolução temporal do PM$_{2.5}$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período.](figuras/PM2.5_H4.png)
+
+![Evolução temporal do PM$_{10}$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período.](figuras/PM10_C5.png)
+
+![Evolução temporal do PM$_{10}$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período.](figuras/PM10_H4.png)
+
+Dos gráficos de evolução acima é possível notar que: (1) para o CO$_2$ é nítido um efeito positivo da ocupação da sala, o mesmo não fica claro para o PM$_{2.5}$ e o PM$_{10}$; (2) para o CO$_2$, fica nítida a diferença de comportamento entre as Salas E5 e H4, por exemplo, na Sala E5, a sala estar totalmente fechada provoca um incremento muito maior do CO$_2$ reportado, enquanto que na Sala H4 essa diferença parece ser muito menos dramática; (3) para o CO$_2$ é notável que o aumento da ocupação da sala provoca um aumento progressivo (não instantâneo) no CO$_2$; (4) a sala H4 aparentemente apresentou valores discrepantes de PM$_{2.5}$ e de PM$_{10}$. É importante avaliar se se tratam de falhas de equipamento; (5) se não se tratar de falha o que é descrito no Item (4), é notável a diferença de comportamento do PM$_{2.5}$ e do PM$_{10}$ entre as Salas E5 e H4, a saber, os valores discrepantes ocorreram na Sala H4, o que pode indicar a influência de algum fator responsável por causar essas altas concentrações.
+
+Para evitar a necessidade de se considerar um modelo extremamente complexo para explicar o comportamento discutido no Item (3), foi realizada a agregação dos dados como se segue. A cada hora, e a cada mudança de abertura de janelas e/ou portas ou de ocupação, as demais variáveis (concentrações internas e externas de CO$_2$, PM$_{2.5}$ e PM$_{10}$) foram agregadas por meio da média aritmética.
+
+A metodologia estatística empregada para a análise dos dados é brevemente introduzida a seguir.
