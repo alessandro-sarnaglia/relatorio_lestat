@@ -21,15 +21,15 @@ Os dados foram coletados em duas campanhas: a primeira realizada durante o perí
 
 As Figuras \@ref(fig:bpCO2), \@ref(fig:bpPM25) e \@ref(fig:bpPM10) a seguir apresentam as distribuições das concentrações dos poluentes com respeito a sala (E5 ou H4) e a situação da mesma (totalmente aberta - open room, somente porta aberta - open door, somente janela aberta - open window, e totalmente fechada - closed room).
 
-```{r bpCO2, fig.cap = "Boxplot das concentrações de CO$_2$ em função da sala e da situação da mesma."}
+```{r bpCO2, out.width = "800px", fig.cap = "Boxplot das concentrações de CO$_2$ em função da sala e da situação da mesma."}
 knitr::include_graphics("figuras/boxplot_CO2.png")
 ```
 
-```{r bpPM25, fig.cap = "Boxplot das concentrações de PM$_{2.5}$ em função da sala e da situação da mesma."}
+```{r bpPM25, out.width = "800px", fig.cap = "Boxplot das concentrações de PM$_{2.5}$ em função da sala e da situação da mesma."}
 knitr::include_graphics("figuras/boxplot_PM2.5.png")
 ```
 
-```{r bpPM10, fig.cap = "Boxplot das concentrações de PM$_{10}$ em função da sala e da situação da mesma."}
+```{r bpPM10, out.width = "800px", fig.cap = "Boxplot das concentrações de PM$_{10}$ em função da sala e da situação da mesma."}
 knitr::include_graphics("figuras/boxplot_PM10.png")
 ```
 
@@ -62,27 +62,27 @@ As tabelas acima parecem corroborar com as conclusões tiradas dos boxplot's apr
 
 Além da distribuição dos poluentes em diferentes salas e em situações distintas, é interessante averiguar a dinâmica temporal dos mesmos. As Figuras \@ref(fig:tempCO2E5), \@ref(fig:tempCO2H4), \@ref(fig:tempPM25E5), \@ref(fig:tempPM25H4), \@ref(fig:tempPM10E5) e \@ref(fig:tempPM10H4) abaixo mostram a evolução dos poluentes e a da ocupação com o passar do tempo.
 
-```{r tempCO2E5, fig.cap = "Evolução temporal do CO$_2$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
+```{r tempCO2E5, out.width = "800px", fig.cap = "Evolução temporal do CO$_2$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
 knitr::include_graphics("figuras/CO2_C5.png")
 ```
 
-```{r tempCO2H4, fig.cap = "Evolução temporal do CO$_2$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
+```{r tempCO2H4, out.width = "800px", fig.cap = "Evolução temporal do CO$_2$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
 knitr::include_graphics("figuras/CO2_H4.png")
 ```
 
-```{r tempPM25E5, fig.cap = "Evolução temporal do PM$_{2.5}$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
+```{r tempPM25E5, out.width = "800px", fig.cap = "Evolução temporal do PM$_{2.5}$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
 knitr::include_graphics("figuras/PM2.5_C5.png")
 ```
 
-```{r tempPM25H4, fig.cap = "Evolução temporal do PM$_{2.5}$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
+```{r tempPM25H4, out.width = "800px", fig.cap = "Evolução temporal do PM$_{2.5}$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
 knitr::include_graphics("figuras/PM2.5_H4.png")
 ```
 
-```{r tempPM10E5, fig.cap = "Evolução temporal do PM$_{10}$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
+```{r tempPM10E5, out.width = "800px", fig.cap = "Evolução temporal do PM$_{10}$ e períodos de ocupação (retângulos cinzas) para a Sala E5, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
 knitr::include_graphics("figuras/PM10_C5.png")
 ```
 
-```{r tempPM10H4, fig.cap = "Evolução temporal do PM$_{10}$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
+```{r tempPM10H4, out.width = "800px", fig.cap = "Evolução temporal do PM$_{10}$ e períodos de ocupação (retângulos cinzas) para a Sala H4, de acordo com a situação da sala: sala totalmente fechada (pontos vermelhos); apenas janela(s) aberta(s) (pontos amarelos); apenas porta(s) aberta(s) (pontos azuis); porta(s) e janelas(s) abertas (pontos verdes). Os números acima dos retângulos cinzas indicam a ocupação da sala no respectivo período."}
 knitr::include_graphics("figuras/PM10_H4.png")
 ```
 
@@ -120,14 +120,17 @@ Após aplicar a análise de regressão, obteve-se os resíduos, cujo histograma 
 knitr::include_graphics("figuras/hist_res_CO2.png")
 ```
 
-Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados são apresentados nas Tabelas \@ref(tab:anovaCO2) (ANOVA) e \@ref(tab:tstudCO2) (t-student).
+<!-- Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados são apresentados nas Tabelas \@ref(tab:anovaCO2) (ANOVA) e \@ref(tab:tstudCO2) (t-student). -->
+Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados relativos a significância dos coeficientes (teste t-student) são apresentados na Tabela \@ref(tab:tstudCO2).
 
+<!--
 ```{r anovaCO2}
 library(readxl)
 tab_sum_CO2 <- read_excel("resultados.xls", 
     sheet = "CO2_ANOVA")
 knitr::kable(tab_sum_CO2, caption = 'Resultado dos $p$-valores do teste ANOVA para os dados de CO$_2$.')
 ```
+-->
 
 ```{r tstudCO2}
 library(readxl)
@@ -135,6 +138,8 @@ tab_sum_CO2 <- read_excel("resultados.xls",
     sheet = "CO2_t_stud")
 knitr::kable(tab_sum_CO2, caption = 'Estimativas dos coeficientes e respectivos $p$-valores do teste t-student para os dados de CO$_2$.')
 ```
+
+A Tabela \@ref(tab:tstudCO2) mostra que, para o CO$_2$, existe dependência temporal positiva com níveis passados ($a_1$ significativo), sendo que essa dependência é reduzida significativamente quando se considera a Sala H4 ($a_1^* < 0$ significativo). O efeito de concentrações externas do CO$_2$ não é significativo, independente da Sala ($a_2$ e $a_2^*$ não significativos). Como esperado, com a sala totalmente fechada ($\text{Ab}_{t,\text{porta}} = \text{Ab}_{t,\text{janela}} = 0$), foi observado efeito positivo da ocupação da sala ($a_3 > 0$ significativo) nas concentrações internas de CO$_2$, sendo que esse efeito é ainda maior quando se considera a Sala H4 ($a_3^* > 0$ significativo). Num cenário de salas desocupadas ($\text{Oc}_t = 0$), a abertura de portas e janelas não provoca efeito nas contrações de CO$_2$, independente da sala considerada ($a_3$, $a_3*$, $a_4$ e $a_4^*$ não significativos). Por outro lado, como esperado, num cenário em que a sala não estiver totalmente fechada ($\text{Ab}_{t,\text{porta}} > 0$ ou $\text{Ab}_{t,\text{janela}} > 0$ ou ambos) a abertura de portas e janelas é capaz de reduzir o efeito positivo da ocupação nas concentrações internas de CO$_2$ ($a_6 < 0$ e $a_7 < 0$ significativos), sendo que essa redução provocada pela a abertura da porta é ainda mais acentuada para a Sala H4 ($a_6^* < 0$ significativo).
 
 ## Material Particulado com diâmetro $< 2.5$ µ$\text{m}$ – PM$_{2.5}$
 
@@ -144,14 +149,17 @@ Após aplicar a análise de regressão, obteve-se os resíduos, cujo histograma 
 knitr::include_graphics("figuras/hist_res_PM2.5.png")
 ```
 
-Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados são apresentados nas Tabelas \@ref(tab:anovaPM25) (ANOVA) e \@ref(tab:tstudPM25) (t-student).
+<!-- Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados são apresentados nas Tabelas \@ref(tab:anovaPM25) (ANOVA) e \@ref(tab:tstudPM25) (t-student). -->
+Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados relativos a significância dos coeficientes (teste t-student) são apresentados na Tabela \@ref(tab:tstudPM25). Valores em negrito indicam discordâncias entre os $p$-valores gaussiano e bootstrap, sendo adotado o último.
 
+<!-- 
 ```{r anovaPM25}
 library(readxl)
 tab_sum_CO2 <- read_excel("resultados.xls", 
     sheet = "PM2.5_ANOVA")
 knitr::kable(tab_sum_CO2, caption = 'Resultado dos $p$-valores do teste ANOVA para os dados de PM$_{2.5}$.')
 ```
+-->
 
 ```{r tstudPM25}
 library(readxl)
@@ -159,6 +167,8 @@ tab_sum_CO2 <- read_excel("resultados.xls",
     sheet = "PM2.5_t_stud")
 knitr::kable(tab_sum_CO2, caption = 'Estimativas dos coeficientes e respectivos $p$-valores do teste t-student para os dados de PM$_{2.5}$.')
 ```
+
+De maneira similar ao CO$_2$, foi encontrada a presença de um efeito temporal positivo ($a_1 > 0$ significativo) nas concentrações de PM$_{2.5}$. Diferentemente do CO$_2$, os níveis externos de PM$_{2.5}$ impactam (de maneira positiva) as concentrações internas do poluente ($a_2 > 0$ significativo). Com a sala totalmente fechada ($\text{Ab}_{t,\text{porta}} = \text{Ab}_{t,\text{janela}} = 0$), a ocupação da sala apresenta efeito negativo ($a_3 < 0$ significativo). Com a sala desocupada ($\text{Oc}_t = 0$), a abertura da porta não impacta significativamente os níveis de PM$_{2.5}$ ($a_4$ não significativo), enquanto que a abertura de janelas tende a reduzir os níveis desse poluente ($a_5 < 0$ significativo). Se a sala não estiver totalmente fechada ($\text{Ab}_{t,\text{porta}} > 0$ ou $\text{Ab}_{t,\text{janela}} > 0$ ou ambos), a abertura de portas não afeta significativamente o efeito da ocupação ($a_6$ não significativo), enquanto que a abertura de janelas atenua a redução de PM$_{2.5}$ provocada pela ocupação da sala ($a_7 > 0$ significativo). Finalmente, para o PM$_{2.5}$, a localização da sala não influencia nos resultados encontrados ($a_i^*$ não significativo para todo $i$).
 
 ## Material Particulado com diâmetro $< 10$ µ$\text{m}$ – PM$_{10}$
 
@@ -168,14 +178,17 @@ Após aplicar a análise de regressão, obteve-se os resíduos, cujo histograma 
 knitr::include_graphics("figuras/hist_res_PM10.png")
 ```
 
-Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados são apresentados nas Tabelas \@ref(tab:anovaPM10) (ANOVA) e \@ref(tab:tstudPM10) (t-student).
+<!-- Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados são apresentados na Tabela \@ref(tab:anovaPM10) (ANOVA) e \@ref(tab:tstudPM10) (t-student). -->
+Devido a confirmação de não normalidade, foi empregada a metodologia bootstrap para obtenção de $p$-valores corrigidos. Para efeito de comparação, os $p$-valores gaussianos também são apresentados. Os resultados relativos a significância dos coeficientes (teste t-student) são apresentados na Tabela \@ref(tab:tstudPM10). Valores em negrito indicam discordâncias entre os $p$-valores gaussiano e bootstrap, sendo adotado o último.
 
+<!-- 
 ```{r anovaPM10}
 library(readxl)
 tab_sum_CO2 <- read_excel("resultados.xls", 
     sheet = "PM10_ANOVA")
 knitr::kable(tab_sum_CO2, caption = 'Resultado dos $p$-valores do teste ANOVA para os dados de PM$_{10}$.')
 ```
+-->
 
 ```{r tstudPM10}
 library(readxl)
@@ -183,5 +196,7 @@ tab_sum_CO2 <- read_excel("resultados.xls",
     sheet = "PM10_t_stud")
 knitr::kable(tab_sum_CO2, caption = 'Estimativas dos coeficientes e respectivos $p$-valores do teste t-student para os dados de PM$_{10}$.')
 ```
+
+Similarmente aos demais poluentes, o PM$_{10}$ apresentou dependência temporal positiva ($a_1 > 0$ significativo). As concentrações internas do PM$_{10}$ também são influenciadas positivamente por suas concentrações externas ($a_2 > 0$ significativo). Com a sala totalmente fechada ($\text{Ab}_{t,\text{porta}} = \text{Ab}_{t,\text{janela}} = 0$), a ocupação da sala apresenta efeito negativo ($a_3 < 0$ significativo). Com a sala desocupada ($\text{Oc}_t = 0$), a abertura da porta não impacta significativamente os níveis de PM$_{10}$ ($a_4$ não significativo), enquanto que a abertura de janelas tende a reduzir os níveis desse poluente ($a_5 < 0$ significativo). Se a sala não estiver totalmente fechada ($\text{Ab}_{t,\text{porta}} > 0$ ou $\text{Ab}_{t,\text{janela}} > 0$ ou ambos), a abertura de portas e janelas não afeta significativamente o efeito da ocupação ($a_6$ e $a_7$ não significativos). Finalmente, de maneira similar ao PM$_{2.5}$, para o PM$_{10}$, a localização da sala não influencia nos resultados encontrados ($a_i^*$ não significativo para todo $i$).
 
 # Referências
